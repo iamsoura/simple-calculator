@@ -11,4 +11,7 @@ class Calculator
     public function getAppName() {
         return $this->app_name;
     }
+    public function addition($value) {
+        return $value + 1;
+    }
 }

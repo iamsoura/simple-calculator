@@ -12,6 +12,6 @@ class Calculator
         return $this->app_name;
     }
     public function addition($value) {
-        return $value + 1;
+        return $value + 10;
     }
 }

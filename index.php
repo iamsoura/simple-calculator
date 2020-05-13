@@ -9,6 +9,6 @@ echo $app->getAppName();
 
 echo '<br />';
 
-$input = 10;
+$input = 50;
 
-echo 'Adding +1 with number '.$input.' = '. $app->addition($input);
+echo 'Adding +10 with number '.$input.' = '. $app->addition($input);
